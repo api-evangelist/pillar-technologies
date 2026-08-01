@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: pillar.tech
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Feb 13 02:27:51 2027 GMT
+  hsts: false
+domains:
+- domain: pillar.tech
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

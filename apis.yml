@@ -1,8 +1,28 @@
 aid: pillar-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pillar-technologies.png
 name: Pillar Technologies
-description: Pillar Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pillar Technologies provides construction jobsite risk management through
+  environmental monitoring and data analytics. Its wireless, rugged "Pod" sensors measure
+  eight environmental metrics on the jobsite (temperature, humidity, carbon monoxide,
+  VOCs, particulates, noise, light, and pressure) with cellular connectivity and a
+  one-year battery life, feeding a real-time software platform with customizable
+  dashboards, floorplan integration, and drill-down reporting by site, floor, or sensor.
+  A configurable alert system notifies teams via text, email, or phone. Pillar serves
+  data centers, hospitality and multi-family housing, and science and healthcare
+  construction projects to improve safety and protect schedules and budgets. Surfaced
+  as a Techstars portfolio company. No public developer API, documentation, or developer
+  portal was found as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/pillar-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- IoT
+- Sensors
+- Environmental Monitoring
+- Jobsite Safety
+- Analytics
+- Real Estate Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pillar-technologies-domain-security.yml
 - type: Website
   url: https://pillar.tech/
+- type: Login
+  url: https://app.pillar.tech/
+- type: PrivacyPolicy
+  url: https://pillar.tech/privacy-policy/
+- type: Support
+  url: https://pillar.tech/demo/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
